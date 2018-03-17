@@ -1,7 +1,7 @@
 package org.stype.vekmath
 
 /**
- * An pair of Double values.
+ * An immutable pair of Double values.
  */
 abstract class Tuple(val x: Double, val y: Double) {
     override fun toString(): String {

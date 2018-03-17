@@ -1,7 +1,7 @@
 package org.stype.vekmath
 
 /**
- * Created by Joe on 5/23/2017.
+ * An immutable 2D point
  */
 class Point(x: Double, y: Double): Tuple(x, y) {
 

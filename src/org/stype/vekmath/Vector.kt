@@ -1,7 +1,7 @@
 package org.stype.vekmath
 
 /**
- * Created by Joe on 5/23/2017.
+ * An immutable 2D Vector
  */
 class Vector(x: Double, y: Double): Tuple(x, y) {
     constructor(p: Tuple): this(p.x, p.y)
