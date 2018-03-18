@@ -1,0 +1,12 @@
+apply plugin: 'idea'
+//and standard one
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'org.assertj:assertj-core:3.9.0'
+}
+
