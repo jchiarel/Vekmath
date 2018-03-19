@@ -27,7 +27,7 @@ class Vector(x: Double, y: Double): Tuple(x, y) {
     }
 
     fun dot(dir: Vector): Double {
-        return (this.x*dir.x + this.y*dir.y);
+        return (this.x*dir.x + this.y*dir.y)
     }
 
     fun cross(that: Vector): Double {
