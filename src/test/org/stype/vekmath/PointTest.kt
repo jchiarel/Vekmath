@@ -13,4 +13,10 @@ class PointTest {
 
         assertThat(p1.distance(p2)).isEqualTo(1.0)
     }
+
+    @Test
+    fun testDistance0() {
+        val p1 = Point(0.0, 0.0)
+        assertThat(p1.distance(p1)).isEqualTo(0.0)
+    }
 }
