@@ -1,8 +1,3 @@
 language: java
 jdk:
   - oraclejdk8
-
-
-script:
-# Display Gradle, Groovy, JVM and other versions
-  - ./gradlew -version
