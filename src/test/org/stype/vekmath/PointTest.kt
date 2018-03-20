@@ -1,8 +1,7 @@
 package org.stype.vekmath
 
 import org.assertj.core.api.Assertions.*
-
-import org.junit.jupiter.api.Test
+import org.junit.Test
 
 class PointTest {
 
@@ -19,4 +18,5 @@ class PointTest {
         val p1 = Point(0.0, 0.0)
         assertThat(p1.distance(p1)).isEqualTo(0.0)
     }
+
 }
