@@ -39,4 +39,12 @@ class PointTest {
         assertThat(p1 * 4.0).isEqualTo(Point(8.0, 12.0))
     }
 
+    @Test
+    fun testConstructors() {
+        val p1 = Point(1.0, 2.0)
+        val p2 = Point(p1)
+
+        assertThat(p1).isEqualTo(p2)
+    }
+
 }
