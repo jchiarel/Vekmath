@@ -4,6 +4,7 @@ package org.stype.vekmath
  * An immutable 2D point
  */
 class Point(x: Double, y: Double): Tuple(x, y) {
+    constructor(xInt: Int, yInt: Int): this(xInt.toDouble(), yInt.toDouble())
 
     /**
      * Constructs a point from a tuple
