@@ -1,12 +1,10 @@
 package org.stype.vekmath
 
 /**
- * An pair of Double values.
+ * An immutable pair of Double values.
  */
 abstract class Tuple(val x: Double, val y: Double) {
-    override fun toString(): String {
-        return "($x, $y)"
-    }
+    override fun toString() = "($x, $y)"
 
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
